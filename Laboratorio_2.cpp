@@ -2,11 +2,11 @@
 #include <math.h>
 using namespace std;
 
-/*1. Escribe un programa que verifique si un número ingresado por el usuario es par.
-2. Crea un programa que determine si un año ingresado es bisiesto o no.
-3. Desarrolla un programa que solicite al usuario dos números y determine si son iguales.
-4. Realiza un programa que pida al usuario su edad y verifique si es mayor de edad (18 años o más).
-5. Implementa un programa que evalúe si un estudiante aprobó un examen, considerando que la calificación de aprobación es 60 o más*/
+/*1. Escribe un programa que verifique si un nÃºmero ingresado por el usuario es par.
+2. Crea un programa que determine si un aÃ±o ingresado es bisiesto o no.
+3. Desarrolla un programa que solicite al usuario dos nÃºmeros y determine si son iguales.
+4. Realiza un programa que pida al usuario su edad y verifique si es mayor de edad (18 aÃ±os o mÃ¡s).
+5. Implementa un programa que evalÃºe si un estudiante aprobÃ³ un examen, considerando que la calificaciÃ³n de aprobaciÃ³n es 60 o mÃ¡s*/
 
 int main(){
 	
