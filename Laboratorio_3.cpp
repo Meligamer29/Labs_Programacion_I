@@ -2,7 +2,7 @@
 #include <math.h>
 using namespace std;
 
-//Función para hacer uso del menu
+//FunciÃ³n para hacer uso del menu
 int menu(){
 	
 	int op;
@@ -22,33 +22,33 @@ int menu(){
 	
 }
 
-//Función para realizar una suma
+//FunciÃ³n para realizar una suma
 float suma(float a, float b){
 	return a + b;
 }
 
-//Función para realizar una resta
+//FunciÃ³n para realizar una resta
 float resta(float a, float b){
 	return a - b;
 }
 
-//Función para realizar una multiplicación
+//FunciÃ³n para realizar una multiplicaciÃ³n
 float multi(float a, float b){
 	return a * b;
 }
 
-//Función para realizar una división
+//FunciÃ³n para realizar una divisiÃ³n
 float division(float a, float b){
 	return a / b;
 }
 
-//Función para calcular la potencia de un número
+//FunciÃ³n para calcular la potencia de un nÃºmero
 float calcularPotencia(float a, float b){
 	
 	return pow(a, b);
 }
 
-//Función para calcular si un número es primo
+//FunciÃ³n para calcular si un nÃºmero es primo
 bool esPrimo(int numero) {
     
     if (numero <= 1) {
@@ -69,22 +69,22 @@ bool esBisiesto(int anio) {
 }
 
 
-//Función principal del programa
+//FunciÃ³n principal del programa
 int main(){
 	
-	//Variables que serán de utilidad para que el menu funcione
+	//Variables que serÃ¡n de utilidad para que el menu funcione
 	int op;
 	char resp = 's';
 	
 	while(resp == 's'){
 		system("cls");
 		
-		//La variable op utiliza la función de menú para poder funcionar
+		//La variable op utiliza la funciÃ³n de menÃº para poder funcionar
 		op = menu();
 		
-		//El switch que le dará funcionalidad al menú de opciones
+		//El switch que le darÃ¡ funcionalidad al menÃº de opciones
 		switch(op){
-			//Caso para hacer uso de las funciones que realizan operaciones aritméticas
+			//Caso para hacer uso de las funciones que realizan operaciones aritmÃ©ticas
 			case 1: {
 				system("cls");
 				
@@ -121,7 +121,7 @@ int main(){
 				break;
 			}
 			
-			//Caso para hacer uso de la función que determina si un número es primo o no
+			//Caso para hacer uso de la funciÃ³n que determina si un nÃºmero es primo o no
 			case 3: {
 				system("cls");
 				
@@ -135,7 +135,7 @@ int main(){
 				break;
 			}
 			
-			//Caso para hacer uso de la función que determina si un año es bisiesto o no
+			//Caso para hacer uso de la funciÃ³n que determina si un aÃ±o es bisiesto o no
 			case 4: {
 				system("cls");
 				
